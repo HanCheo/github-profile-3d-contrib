@@ -2,7 +2,7 @@ import * as type from './type';
 
 export const NormalSettings: type.NormalColorSettings = {
     type: 'normal',
-    backgroundColor: '#ffffff',
+    backgroundColor: 'none',
     foregroundColor: '#00000f',
     strongColor: '#111133',
     weakColor: 'gray',
@@ -12,7 +12,7 @@ export const NormalSettings: type.NormalColorSettings = {
 
 export const HalloweenSettings: type.NormalColorSettings = {
     type: 'normal',
-    backgroundColor: '#ffffff',
+    backgroundColor: 'none',
     foregroundColor: '#00000f',
     strongColor: '#111133',
     weakColor: 'gray',
@@ -23,7 +23,7 @@ export const HalloweenSettings: type.NormalColorSettings = {
 // Northern hemisphere
 export const NorthSeasonSettings: type.SeasonColorSettings = {
     type: 'season',
-    backgroundColor: '#ffffff',
+    backgroundColor: 'none',
     foregroundColor: '#00000f',
     strongColor: '#111133',
     weakColor: 'gray',
@@ -37,7 +37,7 @@ export const NorthSeasonSettings: type.SeasonColorSettings = {
 // Southern hemisphere
 export const SouthSeasonSettings: type.SeasonColorSettings = {
     type: 'season',
-    backgroundColor: '#ffffff',
+    backgroundColor: 'none',
     foregroundColor: '#00000f',
     strongColor: '#111133',
     weakColor: 'gray',
@@ -50,7 +50,7 @@ export const SouthSeasonSettings: type.SeasonColorSettings = {
 
 export const NightViewSettings: type.NormalColorSettings = {
     type: 'normal',
-    backgroundColor: '#00000f',
+    backgroundColor: 'none',
     foregroundColor: '#eeeeff',
     strongColor: 'rgb(255,200,55)',
     weakColor: '#aaaaaa',
@@ -66,7 +66,7 @@ export const NightViewSettings: type.NormalColorSettings = {
 
 export const NightGreenSettings: type.NormalColorSettings = {
     type: 'normal',
-    backgroundColor: '#00000f',
+    backgroundColor: 'none',
     foregroundColor: '#eeeeff',
     strongColor: 'rgb(255,200,55)',
     weakColor: '#aaaaaa',
@@ -76,7 +76,7 @@ export const NightGreenSettings: type.NormalColorSettings = {
 
 export const NightRainbowSettings: type.RainbowColorSettings = {
     type: 'rainbow',
-    backgroundColor: '#00000f',
+    backgroundColor: 'none',
     foregroundColor: '#eeeeff',
     strongColor: 'rgb(255,200,55)',
     weakColor: '#aaaaaa',
@@ -89,7 +89,7 @@ export const NightRainbowSettings: type.RainbowColorSettings = {
 
 export const GitBlockSettings: type.BitmapPatternSettings = {
     type: 'bitmap',
-    backgroundColor: '#ffffff',
+    backgroundColor: 'none',
     foregroundColor: '#00000f',
     strongColor: '#111133',
     weakColor: 'gray',
