@@ -215,13 +215,13 @@ export const createSvg = (
             userInfo.contributionCalendar[
                 userInfo.contributionCalendar.length - 1
             ].date;
-        const period = `${util.toIsoDate(startDate)} / ${util.toIsoDate(
+        const period = `${util.toIsoDate(startDate)} ~ ${util.toIsoDate(
             endDate
         )}`;
 
         group
             .append('text')
-            .style('font-size', '16px')
+            .style('font-size', '24px')
             .attr('x', width - 20)
             .attr('y', 20)
             .attr('dominant-baseline', 'hanging')
